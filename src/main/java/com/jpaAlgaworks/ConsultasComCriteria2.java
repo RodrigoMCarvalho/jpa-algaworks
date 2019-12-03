@@ -95,7 +95,7 @@ public class ConsultasComCriteria2 {
 		
 		@SuppressWarnings("deprecation")
 		Criteria criteria = session.createCriteria(Produto.class);
-		criteria.add(Restrictions.lt("preco", new Double(110.0)));      //verifica se é menorsim que
+		criteria.add(Restrictions.lt("preco", new Double(110.0)));      //verifica se é menor que
 		List<Produto> results = criteria.list();
 		results.forEach(System.out::println);
 	}
