@@ -8,3 +8,10 @@ insert into usuario (id, nome, login, senha, dominio_id, ultimoAcesso) values (4
 insert into usuario (id, nome, login, senha, dominio_id, ultimoAcesso) values (5, 'Emily Lightman', 'emily', '123', 1, sysdate());
 
 insert into configuracao (usuario_id, receberNotificacoes, encerrarSessaoAutomaticamente) values (1, false, false);
+
+insert into produto (nome) values ('Teclado Microsoft');
+insert into produto (nome) values ('Teclado Dell');
+insert into produto (nome) values ('Mouse Microsoft');
+insert into produto (nome) values ('Monitor');
+insert into produto (nome) values ('Teclado Samsung');
+insert into produto (nome) values ('Notebooke Samsung');

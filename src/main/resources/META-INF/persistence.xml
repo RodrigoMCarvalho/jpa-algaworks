@@ -10,7 +10,11 @@
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
 		<!-- entidade mapeada -->
-		<class></class>
+		<class>com.jpaAlgaworks.model.Usuario</class>
+		<class>com.jpaAlgaworks.model.Configuracao</class>
+		<class>com.jpaAlgaworks.model.Cliente</class>
+		<class>com.jpaAlgaworks.model.Produto</class>
+		<class>com.jpaAlgaworks.model.Dominio</class>
 
 		<properties>
 			<!-- dados da conexao -->
